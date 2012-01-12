@@ -1,0 +1,10 @@
+<% attributes.each do |attribute| -%>
+<p>
+  <%= attribute.human_name %>:
+  <%%= @<%= singular_table_name %>.<%= attribute.name %> %>
+</p>
+
+<% end -%>
+
+<%%= link_to 'Edit', edit_<%= singular_table_name %>_path(@<%= singular_table_name %>) , :class => "btn" %>
+<%%= link_to 'Back', <%= index_helper %>_path, :class => "btn" %>

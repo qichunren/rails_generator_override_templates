@@ -14,6 +14,6 @@ mv rails_generator_override_templates templates
 
 ### Resources
 
-[Creating and Customizing Rails Generators & Templates](http://guides.rubyonrails.org/generators.html#customizing-your-workflow-by-changing-generators-templates)
-[Rails generators source code](https://github.com/rails/rails/tree/master/railties/lib/rails/generators)
-[Twitter bootstrap](http://twitter.github.com/bootstrap/)
++ [Creating and Customizing Rails Generators & Templates](http://guides.rubyonrails.org/generators.html#customizing-your-workflow-by-changing-generators-templates)
++ [Rails generators source code](https://github.com/rails/rails/tree/master/railties/lib/rails/generators)
++ [Twitter bootstrap](http://twitter.github.com/bootstrap/)

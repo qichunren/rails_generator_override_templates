@@ -1,5 +1,3 @@
-## Readme
-
 ### Usage
 ```
 cd your_rails_project

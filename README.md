@@ -2,7 +2,7 @@
 ```
 cd your_rails_project
 cd lib
-git clone git://github.com/camelsong/rails_generator_override_templates.git
+git clone git://github.com/qichunren/rails_generator_override_templates.git
 mv rails_generator_override_templates templates 
 # then your scaffold_controller, controller, helper, and erb views will follow override templates.
 ```

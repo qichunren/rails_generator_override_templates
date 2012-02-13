@@ -12,9 +12,9 @@
   <%% end %>
 
 <% attributes.each do |attribute| -%>
-  <div class="clearfix">
-    <%%= f.label :<%= attribute.name %> %>
-    <div class="input">
+  <div class="control-group">
+    <%%= f.label :<%= attribute.name %>, :class => "control-label" %>
+    <div class="controls">
        <%%= f.<%= attribute.field_type %> :<%= attribute.name %> %>
     </div>
   </div>
